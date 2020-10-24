@@ -1,0 +1,6 @@
+# This Dockerfile builds a Jupyter Notebook Server Image including:
+# pytorch, tensorflow , etc ..
+
+FROM jupyter/scipy-notebook
+COPY ./requirements.txt /requirements.txt
+RUN pip install --no-cache -r /requirements.txt
