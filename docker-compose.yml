@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  all-spark:
+    image: jupyter/all-spark-notebook
+    container_name: my-all-spark-container
+    ports:
+      - "7777:8888"
+    volumes:
+      - ".:/home/jovyan/work"
+    environment:
+      - "JUPYTER_ENABLE_LAB=yes"
+
+  all-machine-learning:
+    image: jupyter/scipy-notebook
+    container_name: all-ml-container
+    build:
+      context: ./docker-build
+      dockerfile: Dockerfile.build
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/home/jovyan/work"
+    environment:
+      - "JUPYTER_ENABLE_LAB=yes"
