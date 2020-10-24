@@ -1,0 +1,29 @@
+###### Requirements wthout Version Specifiers ######
+###### For Machine Learning and Deep Learning ######
+
+torch
+torchvision 
+tensorflow
+tensorboard
+tensorflow-estimator 
+plotly 
+nltk 
+xgboost
+tqdm 
+pydot
+pydotplus 
+watermark 
+mlxtend
+graphviz 
+opencv-python 
+lightgbm
+imblearn
+spacy
+eli5
+lime
+shap
+tpot
+sweetviz
+pandas-profiling
+quickda
+dataprep
