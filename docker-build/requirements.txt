@@ -1,6 +1,7 @@
 ###### Requirements wthout Version Specifiers ######
 ###### For Machine Learning and Deep Learning ######
 
+altair
 torch
 torchvision 
 tensorflow
