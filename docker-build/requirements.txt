@@ -1,4 +1,4 @@
-###### Requirements wthout Version Specifiers ######
+###### Requirements wthout Version Specification ######
 ###### For Machine Learning and Deep Learning ######
 
 altair
